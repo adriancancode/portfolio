@@ -1,4 +1,5 @@
 <script>
+    import Card from "../../lib/assets/components/Card.svelte";
     import Section from "../../lib/assets/components/Section.svelte";
     let snowboarding = "/snowboarding.jpg";
     let guitar = '/guitar.jpg';
@@ -54,24 +55,24 @@
 
 <h2 class="text-5xl mx-52 underline">Hobbies</h2>
 <div class="flex flex-row flex-wrap justify-center w-full my-20 gap-8">
-    <div class="flex flex-col items-center justify-center w-1/4 p-6 shadow-lg rounded-md">
+    <Card>
         <img src={guitar} alt="Adrian playing an electric guitar in a music room.">
         <p class="text-3xl text-center mt-5">Playing the guitar</p>
-    </div>
+    </Card>
     
-    <div class="flex flex-col items-center justify-center w-1/4 p-6 shadow-lg rounded-md">
+    <Card>
         <img src={snowboarding} alt="Adrian on a ski lift in Mountain High Resort, Wrightwood, CA.">
         <p class="text-3xl text-center mt-5">Snowboarding</p>
-    </div>
-    <div class="flex flex-col items-center justify-center w-1/4 p-6 shadow-lg rounded-md">
+    </Card>
+    <Card>
         <img src={gym} alt="Adrian sitting on a bench taking a mirror selfie at the gym">
         <p class="text-3xl text-center mt-5">Going to the gym</p>
 
-    </div>
-    <div class="flex flex-col items-center justify-center w-1/4 p-6 shadow-lg rounded-md">
+    </Card>
+    <Card>
         <img src={Longboard} alt="Adrian riding a longboard through the CSUF campus">
         <p class="text-3xl text-center mt-5">Longboarding</p>
-    </div>
+    </Card>
 </div>
 
     

@@ -54,6 +54,7 @@ declare module '$env/static/private' {
 	export const QT_QPA_PLATFORMTHEME: string;
 	export const FNM_VERSION_FILE_STRATEGY: string;
 	export const FNM_LOGLEVEL: string;
+	export const GTK_IM_MODULE: string;
 	export const LOGNAME: string;
 	export const WINDOWID: string;
 	export const FNM_NODE_DIST_MIRROR: string;
@@ -78,6 +79,7 @@ declare module '$env/static/private' {
 	export const DISPLAY: string;
 	export const LANG: string;
 	export const XDG_CURRENT_DESKTOP: string;
+	export const XMODIFIERS: string;
 	export const XDG_SESSION_DESKTOP: string;
 	export const XAUTHORITY: string;
 	export const LS_COLORS: string;
@@ -93,6 +95,7 @@ declare module '$env/static/private' {
 	export const GDMSESSION: string;
 	export const LESSCLOSE: string;
 	export const GPG_AGENT_INFO: string;
+	export const QT_IM_MODULE: string;
 	export const XDG_VTNR: string;
 	export const npm_config_globalconfig: string;
 	export const npm_config_init_module: string;
@@ -100,6 +103,7 @@ declare module '$env/static/private' {
 	export const FNM_MULTISHELL_PATH: string;
 	export const npm_execpath: string;
 	export const XDG_CONFIG_DIRS: string;
+	export const CLUTTER_IM_MODULE: string;
 	export const NVM_CD_FLAGS: string;
 	export const XDG_DATA_DIRS: string;
 	export const npm_config_global_prefix: string;
@@ -168,6 +172,7 @@ declare module '$env/dynamic/private' {
 		QT_QPA_PLATFORMTHEME: string;
 		FNM_VERSION_FILE_STRATEGY: string;
 		FNM_LOGLEVEL: string;
+		GTK_IM_MODULE: string;
 		LOGNAME: string;
 		WINDOWID: string;
 		FNM_NODE_DIST_MIRROR: string;
@@ -192,6 +197,7 @@ declare module '$env/dynamic/private' {
 		DISPLAY: string;
 		LANG: string;
 		XDG_CURRENT_DESKTOP: string;
+		XMODIFIERS: string;
 		XDG_SESSION_DESKTOP: string;
 		XAUTHORITY: string;
 		LS_COLORS: string;
@@ -207,6 +213,7 @@ declare module '$env/dynamic/private' {
 		GDMSESSION: string;
 		LESSCLOSE: string;
 		GPG_AGENT_INFO: string;
+		QT_IM_MODULE: string;
 		XDG_VTNR: string;
 		npm_config_globalconfig: string;
 		npm_config_init_module: string;
@@ -214,6 +221,7 @@ declare module '$env/dynamic/private' {
 		FNM_MULTISHELL_PATH: string;
 		npm_execpath: string;
 		XDG_CONFIG_DIRS: string;
+		CLUTTER_IM_MODULE: string;
 		NVM_CD_FLAGS: string;
 		XDG_DATA_DIRS: string;
 		npm_config_global_prefix: string;
