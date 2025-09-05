@@ -3,9 +3,10 @@
     let chef_ai = "/chef-ai2.jpg";
     let spring = '/spring_facts.jpg';
     let frightframes = '/frightframes.jpg';
+    let operationRelay = '/operation-relay.jpg'
 </script>
 <h1 class="text-7xl text-center m-11">Projects</h1>
-<div class="flex flex-row flex-wrap justify-center w-full gap-8">
+<div class="grid grid-cols-3 col-span-full my-20 gap-8">
     <Card>
         <img src={chef_ai} alt="Recipe card of Chef-AI app with example recipe of breakfast burrito with full ingredients list and steps on how to make it">
         <h3 class='text-3xl my-2'>Chef-AI</h3>
@@ -29,6 +30,12 @@
         <h3 class="text-3xl my-7">FrightFrames</h3>
         <p class='my-3 text-xl'>Horror movie trailer storyboard made as a submission for Cerebral Beach Hacks 2024.</p>
         <button class="bg-neutral-300 transition ease-in-out hover:bg-neutral-100 active:opacity-70 p-3 rounded-lg font-bold text-xl mt-20"><a href="https://github.com/adriancancode/Cerebral_Beach_Hacks_2024" target="_blank">Github Repository</a></button>
+    </Card>
+    <Card>
+        <img src={operationRelay} alt="Front Page of FrightFrames project, submission for Cerebral Beach Hacks 2024">
+        <h3 class="text-3xl my-7">Operation Relay</h3>
+        <p class='my-3 text-xl'>Operation Relay tracks surgery procedure in real time for patient and patient’s family, as well as providing the workflow.</p>
+        <button class="bg-neutral-300 transition ease-in-out hover:bg-neutral-100 active:opacity-70 p-3 rounded-lg font-bold text-xl mt-20"><a href="https://github.com/itsjustShane/Revise_App" target="_blank">Github Repository</a></button>
     </Card>
 </div>
 
